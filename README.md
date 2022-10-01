@@ -1,7 +1,7 @@
 # nginx-multiplexer
 TCP  and TLS-alpn multiplexer just by by nginx
 
-You don't need to do any other tools like sslh or sshttp.
+You don't need to use any other tools like sslh or sshttp.
 
 
 ## 1.  TCP  multiplexer.
