@@ -1,11 +1,13 @@
 # nginx-multiplexer
-TCP  and TLS-alpn multiplexer just by by nginx
+TCP  and/or  TLS-alpn multiplexer just by nginx conf
 
 You don't need to use any other tools like sslh or sshttp.
 
 
 ## 1.  TCP  multiplexer.
-    Using nginx script to run multiple tcp protocols at the same port:  http, ssl, and ssh.
+Using nginx script to run multiple tcp protocols at the same port:  http, ssl, and ssh.
+    
+    
     ```
     # In file: /etc/nginx/nginx.conf
     
